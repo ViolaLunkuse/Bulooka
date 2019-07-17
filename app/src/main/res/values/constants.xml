@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    https://social-c3035.firebaseio.com/
+    <string name="storage_link">gs://social-c3035.appspot.com
+    </string>
+    <string name="google_web_client_id">883237672756-6m8dcfaarucn18797ou0hjdfqs6qo5t7.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">685755701855300</string>
+    <string name="facebook_large_image_url_pattern">https://graph.facebook.com/%1$s/picture?type=large</string>
+    <string name="google_large_image_url_pattern">%1$s?sz=%2$d</string>
+</resources>

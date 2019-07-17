@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person"
+        android:orderInCategory="2"
+        android:title="@string/profile_menu_item"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/followingPosts"
+        android:icon="@drawable/ic_following_posts"
+        android:orderInCategory="2"
+        android:title="@string/following_post_menu_item"
+        app:showAsAction="ifRoom" />
+
+    <item
+    android:id="@+id/search"
+    android:icon="@drawable/ic_search"
+    android:orderInCategory="1"
+    android:title="@string/search_menu_item"
+    app:showAsAction="ifRoom" />
+
+
+
+
+     <item android:id="@+id/menu2"
+    android:alphabeticShortcut="b"
+    android:title="@string/game_zone"
+    android:orderInCategory="2">
+            <menu >
+            <group android:id="@+id/group2" android:checkableBehavior="single">
+    <item
+        android:id="@+id/speed_test"
+
+        android:title="@string/speed_test" />
+                <item android:id="@+id/submenu1" android:title="@string/iq_test" />
+                <item android:id="@+id/submenu2" android:title="@string/quiz_test" />
+            </group>  
+            </menu>
+        </item>
+
+
+
+
+
+
+
+
+
+
+
+</menu>
+
