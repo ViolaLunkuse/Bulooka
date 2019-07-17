@@ -279,8 +279,8 @@ public class MainActivity extends BaseActivity<MainView, MainPresenter> implemen
                 return true;
 
             case R.id.speed_test:
-                Intent speedtest = new Intent(this, Login.class);
-                startActivity(speedtest);
+                //Intent speedtest = new Intent(this, Login.class);
+                //startActivity(speedtest);
                 return true;
 
 
